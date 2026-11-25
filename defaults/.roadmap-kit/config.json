@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "paths": {
+    "roadmaps": "roadmaps",
+    "docs": "docs",
+    "skillRoots": [
+      ".kerberos/skills",
+      ".agents/skills"
+    ]
+  },
+  "roadmaps": {
+    "idPattern": "^RM-[0-9]{3}$",
+    "taskIdPattern": "^RM-[0-9]{3}-[A-Z0-9-]+$",
+    "statuses": [
+      "proposed",
+      "ready",
+      "active",
+      "blocked",
+      "paused"
+    ],
+    "taskStatuses": [
+      "planned",
+      "ready",
+      "doing",
+      "blocked",
+      "done"
+    ],
+    "priorities": [
+      "P0",
+      "P1",
+      "P2",
+      "P3"
+    ],
+    "lanes": [
+      "feature",
+      "research",
+      "maintenance"
+    ],
+    "wip": {
+      "activeByLane": {
+        "feature": 2,
+        "maintenance": 1
+      },
+      "readyTasksPerRoadmap": 3
+    }
+  },
+  "docs": {
+    "legacyBaseline": "docs/.legacy-baseline.txt",
+    "kinds": [
+      "architecture",
+      "reference",
+      "how-to",
+      "runbook",
+      "decision",
+      "generated",
+      "archive"
+    ],
+    "statuses": [
+      "current",
+      "superseded",
+      "archived"
+    ]
+  },
+  "requirements": {
+    "pwsh": "7.0.0",
+    "git": "2.30.0"
+  }
+}

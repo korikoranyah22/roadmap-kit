@@ -1,0 +1,1 @@
+# Paths legacy relativos al repo, uno por línea. El conjunto sólo puede reducirse.

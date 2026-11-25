@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "kitVersion": "0.7.0",
+  "minimumPwsh": "7.0.0",
+  "minimumGit": "2.30.0",
+  "files": [
+    {
+      "bundlePath": "adapters/agents/skills/roadmap-close/SKILL.md",
+      "targetPath": ".kerberos/skills/roadmap-close/SKILL.md",
+      "component": "adapter-agents",
+      "policy": "fragment",
+      "sha256": "239eeb6d242c449c50cbf81cd6e68589f91da3c46fb7d5b994223acdedcdc223"
+    },
+    {
+      "bundlePath": "adapters/agents/skills/roadmap-execute/SKILL.md",
+      "targetPath": ".kerberos/skills/roadmap-execute/SKILL.md",
+      "component": "adapter-agents",
+      "policy": "fragment",
+      "sha256": "d571fe0a30c8c2057ff7dbbcaa73c9001613586d757122f256ceae50dff79b98"
+    },
+    {
+      "bundlePath": "adapters/agents/skills/roadmap-triage/SKILL.md",
+      "targetPath": ".kerberos/skills/roadmap-triage/SKILL.md",
+      "component": "adapter-agents",
+      "policy": "fragment",
+      "sha256": "3e256113d228e28de2506dedeed94a87b24d5e8426ebcf7842bc105f3f1915d1"
+    },
+    {
+      "bundlePath": "adapters/agents/skills/roadmap-verify/SKILL.md",
+      "targetPath": ".kerberos/skills/roadmap-verify/SKILL.md",
+      "component": "adapter-agents",
+      "policy": "fragment",
+      "sha256": "54ab099d94791555715d87b1154c633a307d227f6256e0b0d796970c6f326895"
+    },
+    {
+      "bundlePath": "adapters/codex/AGENTS.fragment.md",
+      "targetPath": ".roadmap-kit/adapters/codex/AGENTS.fragment.md",
+      "component": "adapter-codex",
+      "policy": "fragment",
+      "sha256": "80a961a39de8adde29d88e87e48e01d4a737fb29b794bfd96e7c2006e1de62f3"
+    },
+    {
+      "bundlePath": "core/scripts/docs.ps1",
+      "targetPath": "scripts/docs.ps1",
+      "component": "core",
+      "policy": "managed",
+      "sha256": "e9ec8549986ebc9c708e116060c9bbbc88f435936d3c13bbc4c8de0b2faf769a"
+    },
+    {
+      "bundlePath": "core/scripts/roadmap-kit-config.psm1",
+      "targetPath": "scripts/roadmap-kit-config.psm1",
+      "component": "core",
+      "policy": "managed",
+      "sha256": "55dee360710588eb7a0cc7a989e512fca011ebfb5d35fbefb39f121b3299470c"
+    },
+    {
+      "bundlePath": "core/scripts/roadmap.ps1",
+      "targetPath": "scripts/roadmap.ps1",
+      "component": "core",
+      "policy": "managed",
+      "sha256": "21fa7858740244b1d4016a19f195e535cafddbc1f8a0c824cefd298d9a41f4d2"
+    },
+    {
+      "bundlePath": "core/scripts/test-docs.ps1",
+      "targetPath": "scripts/test-docs.ps1",
+      "component": "core",
+      "policy": "managed",
+      "sha256": "1e0d1891d872e65f91c50e5d64a6e2f58c7aabeba8c7b8982f734447e716c8af"
+    },
+    {
+      "bundlePath": "defaults/.roadmap-kit/config.json",
+      "targetPath": ".roadmap-kit/config.json",
+      "component": "defaults",
+      "policy": "seed",
+      "sha256": "74cf59a1bef55677ab4c97d750c5b19f0ad39f535c46760232eda01f042d60a1"
+    },
+    {
+      "bundlePath": "defaults/docs/.legacy-baseline.txt",
+      "targetPath": "docs/.legacy-baseline.txt",
+      "component": "defaults",
+      "policy": "seed",
+      "sha256": "da0ee42dcb10e5a3c640205865fdcc3eaa5ba08b0046365742d1b6a6847a0619"
+    },
+    {
+      "bundlePath": "defaults/docs/README.md",
+      "targetPath": "docs/README.md",
+      "component": "defaults",
+      "policy": "seed",
+      "sha256": "1f571d0fc8cfbc59c2691377bc38aef77e0d381c2e3fbae847c25d9385667172"
+    },
+    {
+      "bundlePath": "defaults/roadmaps/AGENTS.md",
+      "targetPath": "roadmaps/AGENTS.md",
+      "component": "defaults",
+      "policy": "seed",
+      "sha256": "0d337582dc26561427a4e6752b7418053e4ff63dde7bb3db4a29971f30fc7252"
+    },
+    {
+      "bundlePath": "defaults/roadmaps/archive/README.md",
+      "targetPath": "roadmaps/archive/README.md",
+      "component": "defaults",
+      "policy": "seed",
+      "sha256": "13bcd04c02cdc8f22fa27cfc38bc996bb846d4a111a3a04c42484f5309e09d66"
+    },
+    {
+      "bundlePath": "defaults/roadmaps/templates/CLOSEOUT.md",
+      "targetPath": "roadmaps/templates/CLOSEOUT.md",
+      "component": "defaults",
+      "policy": "seed",
+      "sha256": "65a0e4ed727a2d401edb0d7a90186ecffc821a24f34dba8ced0cc8cc67eb573f"
+    },
+    {
+      "bundlePath": "defaults/roadmaps/templates/ROADMAP.md",
+      "targetPath": "roadmaps/templates/ROADMAP.md",
+      "component": "defaults",
+      "policy": "seed",
+      "sha256": "215e30e2ed12a3bb0fa54882150d1b0aabe2051d1a107097d6c99c2c29735489"
+    },
+    {
+      "bundlePath": "defaults/roadmaps/templates/TASK.md",
+      "targetPath": "roadmaps/templates/TASK.md",
+      "component": "defaults",
+      "policy": "seed",
+      "sha256": "370bd6111117774c5bfd564a38f0c5e973dd442ff3177706aaee8428739c4f23"
+    },
+    {
+      "bundlePath": "defaults/roadmaps/workflows/roadmap-closeout.md",
+      "targetPath": "roadmaps/workflows/roadmap-closeout.md",
+      "component": "defaults",
+      "policy": "seed",
+      "sha256": "6c40523671c33b926b3bd2bdfe49c97a353f2d9369ea2f74cab64ed37ca0c04c"
+    },
+    {
+      "bundlePath": "defaults/roadmaps/workflows/roadmap-delivery.md",
+      "targetPath": "roadmaps/workflows/roadmap-delivery.md",
+      "component": "defaults",
+      "policy": "seed",
+      "sha256": "68e133804086c02f2d968f2569510eb1c985834f56e665a4f9710e6bbdb123ad"
+    },
+    {
+      "bundlePath": "defaults/roadmaps/workflows/roadmap-research.md",
+      "targetPath": "roadmaps/workflows/roadmap-research.md",
+      "component": "defaults",
+      "policy": "seed",
+      "sha256": "3af1227283a0060340e6474b2f92df7284c95551084bef32cc6d11f75e5821da"
+    },
+    {
+      "bundlePath": "defaults/roadmaps/workflows/roadmap-triage.md",
+      "targetPath": "roadmaps/workflows/roadmap-triage.md",
+      "component": "defaults",
+      "policy": "seed",
+      "sha256": "ab8fe88d865d2de44962f85948eb1c2ab6dbc1b88be475849bba03bb76119380"
+    }
+  ]
+}
